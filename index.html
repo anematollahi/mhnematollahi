@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>صفحه معرفی — محمد حسین نعمت الهی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @font-face {
+        font-family: 'Vazir';
+        src: url('fonts/Vazir.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+      body { 
+        font-family: 'Vazir', system-ui, sans-serif; 
+        background: linear-gradient(135deg,#0f172a 0%, #082032 45%, #0b2447 100%);
+      }
+      :root { --glass: rgba(255,255,255,0.06); }
+    </style>
+  </head>
+  <body class="min-h-screen flex items-center justify-center p-6">
+    <main class="max-w-4xl w-full bg-gradient-to-b from-white/5 to-white/3 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12 border border-white/5">
+      <header class="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+        <!-- Avatar -->
+        <div class="flex-shrink-0">
+          <div class="w-36 h-36 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-sky-400 to-indigo-600 p-1">
+            <div class="w-full h-full rounded-full bg-[#071033] flex items-center justify-center text-white text-3xl font-semibold">شما</div>
+          </div>
+        </div>
+
+        <!-- Intro -->
+        <div class="flex-1 text-right">
+          <h1 class="text-2xl md:text-3xl font-bold text-white">سلام — من <span class="text-sky-300">محمد حسین نعمت الهی</span> هستم</h1>
+          <p class="mt-2 text-gray-300 max-w-xl">طراح و توسعه‌دهنده وب — ساخت رابط‌های کاربری زیبا و مینیمال، علاقه‌مند به تجربه کاربری و پیاده‌سازی پروژه‌های مقیاس‌پذیر. اینجا چند لینک سریع و نمونه‌کاری هست.</p>
+
+          <div class="mt-4 flex flex-wrap gap-3 justify-end">
+            <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky-500 hover:bg-sky-600 text-white text-sm shadow">تماس با من</a>
+            <a href="#portfolio" class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 text-sm text-gray-100 hover:bg-white/5">نمونه‌کارها</a>
+            <a href="#cv" class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 text-sm text-gray-100 hover:bg-white/5">دانلود رزومه</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- About -->
+        <article class="md:col-span-2 bg-white/3 p-6 rounded-xl border border-white/6">
+          <h2 class="text-lg font-semibold text-white text-right">درباره من</h2>
+          <p class="mt-3 text-gray-200 leading-relaxed text-right">من یک توسعه‌دهندهٔ فول‌استک هستم که در زمینهٔ JavaScript، Vue، Nuxt، و طراحی رابط کاربری کار می‌کنم. علاقه‌مند به برنامه‌نویسی تمیز، اتوماسیون فرایندها و بهینه‌سازی تجربهٔ کاربری هستم. در پروژه‌هایم همیشه تلاش می‌کنم کدنویسی قابل نگهداری و قابل تست تولید کنم.</p>
+
+          <div class="mt-5 grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div class="p-3 bg-white/5 rounded">
+              <div class="text-sm text-gray-300">محل زندگی</div>
+              <div class="font-medium text-white">شهر، کشور</div>
+            </div>
+            <div class="p-3 bg-white/5 rounded">
+              <div class="text-sm text-gray-300">ایمیل</div>
+              <div class="font-medium text-white">you@example.com</div>
+            </div>
+            <div class="p-3 bg-white/5 rounded">
+              <div class="text-sm text-gray-300">تجربه</div>
+              <div class="font-medium text-white">+5 سال</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Skills -->
+        <aside class="bg-white/3 p-6 rounded-xl border border-white/6">
+          <h3 class="text-white font-semibold text-right">مهارت‌ها</h3>
+          <ul class="mt-4 space-y-3 text-right">
+            <li>
+              <div class="flex items-center justify-between gap-4">
+                <span class="text-gray-200">Vue / Nuxt</span>
+                <span class="text-sm text-gray-300">90%</span>
+              </div>
+              <div class="w-full bg-white/6 h-2 rounded-full mt-2">
+                <div class="h-2 rounded-full" style="width:90%; background:linear-gradient(90deg,#06b6d4,#7c3aed);"></div>
+              </div>
+            </li>
+
+            <li>
+              <div class="flex items-center justify-between gap-4">
+                <span class="text-gray-200">Tailwind / CSS</span>
+                <span class="text-sm text-gray-300">85%</span>
+              </div>
+              <div class="w-full bg-white/6 h-2 rounded-full mt-2">
+                <div class="h-2 rounded-full" style="width:85%; background:linear-gradient(90deg,#06b6d4,#7c3aed);"></div>
+              </div>
+            </li>
+
+            <li>
+              <div class="flex items-center justify-between gap-4">
+                <span class="text-gray-200">Node.js</span>
+                <span class="text-sm text-gray-300">80%</span>
+              </div>
+              <div class="w-full bg-white/6 h-2 rounded-full mt-2">
+                <div class="h-2 rounded-full" style="width:80%; background:linear-gradient(90deg,#06b6d4,#7c3aed);"></div>
+              </div>
+            </li>
+
+          </ul>
+        </aside>
+      </section>
+
+      <section id="portfolio" class="mt-8">
+        <h3 class="text-white font-semibold text-right">نمونه‌کارها</h3>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Project card -->
+          <a class="block p-4 rounded-lg bg-white/4 border border-white/5 hover:scale-[1.01] transition-transform" href="#">
+            <div class="flex items-center justify-between">
+              <div class="text-right">
+                <h4 class="text-white font-medium">پروژه اول</h4>
+                <p class="text-gray-300 text-sm mt-1">یک توضیح کوتاه درباره پروژه و تکنولوژی‌های استفاده شده.</p>
+              </div>
+              <div class="text-xs text-gray-400">فروردین 1403</div>
+            </div>
+          </a>
+
+          <a class="block p-4 rounded-lg bg-white/4 border border-white/5 hover:scale-[1.01] transition-transform" href="#">
+            <div class="flex items-center justify-between">
+              <div class="text-right">
+                <h4 class="text-white font-medium">پروژه دوم</h4>
+                <p class="text-gray-300 text-sm mt-1">یک توضیح کوتاه درباره پروژه و نقش شما در آن.</p>
+              </div>
+              <div class="text-xs text-gray-400">مرداد 1402</div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-8">
+        <h3 class="text-white font-semibold text-right">تماس</h3>
+        <form class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+          <input placeholder="نام" class="md:col-span-1 p-3 rounded bg-white/5 border border-white/6 text-white placeholder-gray-400" />
+          <input placeholder="ایمیل" class="md:col-span-1 p-3 rounded bg-white/5 border border-white/6 text-white placeholder-gray-400" />
+          <input placeholder="عنوان" class="md:col-span-1 p-3 rounded bg-white/5 border border-white/6 text-white placeholder-gray-400" />
+          <textarea placeholder="پیام شما" class="md:col-span-3 p-3 rounded bg-white/5 border border-white/6 text-white placeholder-gray-400 h-28"></textarea>
+          <button type="submit" class="md:col-span-3 py-3 rounded bg-gradient-to-r from-sky-500 to-violet-600 text-white font-medium">ارسال پیام</button>
+        </form>
+      </section>
+
+      <footer class="mt-8 text-center text-gray-400 text-sm">© <span id="year"></span> محمد حسین نعمت الهی — همه حقوق محفوظ است</footer>
+    </main>
+
+    <script>
+      // set current year
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
